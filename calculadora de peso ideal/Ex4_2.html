@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <main>
+
+        <img src="img/ex4_2.jpg" alt="figura de balança" width="300px" height="300px">
+        <div>
+            <h1>
+                Programa Cálculo do Peso Ideal
+            </h1>
+            <form id="main">
+                <p> Nome:
+                    <input type="text" id="inNome" required>
+                </p>
+
+
+                <p> <b> Sexo :</b>
+                    <input type="radio" id="inMasculino" name="sexo" required> Masculino
+                    <input type="radio" id="inFeminino" name="sexo" required> Feminino
+                </p>
+
+
+                <p> <b>Altura (m) :</b>
+                    <input type="number" min="0" step="0.1" id="inAltura" required>
+                </p>
+
+                <input type="submit" value="Calcular Peso Ideal" id="submit">
+                <input type="reset" value="Limpar Campos" id="reset">
+                <h3></h3>
+            </form>
+            
+        </div>
+
+
+    </main>
+
+    <script src="js/Ex4_2.js"> </script>
+
+
+</body>
+
+
+</html>
